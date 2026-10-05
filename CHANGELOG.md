@@ -7,6 +7,10 @@ match the versions published to PyPI.
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-10-06
+
+- Added automated validation, GitHub Release creation, and Trusted Publishing
+  to PyPI for new versions pushed to `master`.
 - Documented the provenance and implementation differences of every built-in
   steering method, and exposed the same references through registry metadata.
 - Clarified current runtime limits and corrected the pandas installation hint

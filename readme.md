@@ -5,10 +5,10 @@
 
 <p align="center">
   <a href="https://pypi.org/project/pysteer-adaptation/">
-    <img src="https://img.shields.io/pypi/v/pysteer-adaptation?label=PyPI&logo=pypi" alt="pysteer-adaptation package on PyPI"/>
+    <img src="https://img.shields.io/pypi/v/pysteer-adaptation.svg?label=PyPI&logo=pypi&cacheSeconds=300" alt="pysteer-adaptation package on PyPI"/>
   </a>
   <a href="https://pypi.org/project/pysteer-adaptation/">
-    <img src="https://img.shields.io/pypi/pyversions/pysteer-adaptation?logo=python&logoColor=white" alt="pysteer supported Python versions"/>
+    <img src="https://img.shields.io/pypi/pyversions/pysteer-adaptation.svg?logo=python&logoColor=white&cacheSeconds=300" alt="pysteer supported Python versions"/>
   </a>
   <a href="https://opensource.org/licenses/MPL-2.0">
     <img src="https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg" alt="MPL 2.0 license"/>

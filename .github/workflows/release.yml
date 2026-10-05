@@ -188,5 +188,13 @@ jobs:
           name: python-distributions
           path: dist/
 
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install the PyPI publishing client
+        run: python -m pip install "twine==7.0.0" "id==1.6.1"
+
       - name: Publish distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@v1.14.2
+        run: python -m twine upload --non-interactive dist/*
